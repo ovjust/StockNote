@@ -16,7 +16,7 @@ namespace Ovjust.StockNote
 {
     public partial class Form1 : Form
     {
-        Session sess= SessionInit.Sess;
+        Session sess ;// = XpoHelper.Sess;
 
         XPQuery<StockInfo> stockInfos;
         XPQuery<StockHolding> stockHoldings;
